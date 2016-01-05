@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.4" type="component" method="upgrade">
 	<name>FOF3 Basic</name>
-	<creationDate>##DATE##</creationDate>
+	<creationDate>01/04/2016</creationDate>
 	<author>Walt Sorensen</author>
 	<authorEmail>info@waltsorensen.com</authorEmail>
 	<authorUrl>http://waltsorensen.com</authorUrl>
