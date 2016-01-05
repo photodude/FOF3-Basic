@@ -6,10 +6,10 @@ A hello world type example for Akeeba FOF3  as a walkthrough for building a Joom
 ## Step 1 - Creating the frame of your Joomla! application
 The first steps in building a Joomla! application using FOF3 is to create the backend with the necessary files and database tables.
 ### Getting started
-First, you need to decide a name for your Joomla! application (for this example I choose FOF3Basic)
+First, you need to decide a name for your Joomla! application (for this example I chose FOF3Basic)
 Second, you need to build up all of the tables you will need for your application.
 	In this example we have 2 tables. There is a Categories table and an Examples table.
-Third, we need to decide on a default view which we will specify in the fof.xml file
+Third, we need to decide on a default view which we will specify in the fof.xml file (for this example I chose the Examples view)
 With all of these details we can put the minimum files together and get a frame for development.
 ### Required files
 Since we are working with a bear bones component we only need a few files for the backend of the site.
