@@ -12,10 +12,10 @@ With all of these details we can put the minimum files together and get a frame 
 Since we are working with a bear bones component we only need a few files for the backend of the site.
 from the `<root>/administrator/components/com_[your component name i.e. fof3basic]` directory we will create the following
 -  access.xml
--  com_fof3basic.xml
+-  com_[your component name i.e. fof3basic].xml
 -  config.xml
 -  fof.xml
--  fof3basic.php
+-  [your component name i.e. fof3basic].php
   
 We also need an SQL install file `install.mysql.utf8.sql` in a `sql` sub-directory folder
 
