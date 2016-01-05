@@ -1,7 +1,7 @@
 # FOF3 Basic
 A hello world type example for Akeeba FOF3  as a walkthrough for building a Joomla! app from the ground up.
 
-**Note:** This step in the tutorial assume you have FOF3 installed. If not, you can get an FOF3 install package from http://Akeebabackup.com
+**Note:** This step in the tutorial assumes you have FOF3 installed. If not, you can get an FOF3 install package from http://Akeebabackup.com
 
 ## Step 1 - Creating the frame of your Joomla! application
 The first steps in building a Joomla! application using FOF3 is to create the backend with the necessary files and database tables.
