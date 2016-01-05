@@ -1,4 +1,4 @@
-# FOF3-Basic
+# FOF3 Basic
 A hello world type example for Akeeba FOF3  as a walkthrough for building a Joomla! app from the ground up.
 
 **Note:** This step in the tutorial assume you have FOF3 installed. If not, you can get an FOF3 install package from http://Akeebabackup.com
