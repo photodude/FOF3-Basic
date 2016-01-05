@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4" type="component" method="upgrade">
+	<name>FOF3 Basic</name>
+	<creationDate>##DATE##</creationDate>
+	<author>Walt Sorensen</author>
+	<authorEmail>info@waltsorensen.com</authorEmail>
+	<authorUrl>http://waltsorensen.com</authorUrl>
+	<copyright>Copyright (c)2015 Walt Sorensen</copyright>
+	<license>GNU GPL v3 or later</license>
+	<version>##VERSION##</version>
+	<description>FOF3-Basic is a hello world type example for Akeeba FOF3 as a walkthrough for building a Joomla! app from the ground up.</description>
+
+	<!-- SQL query files to execute on installation -->
+	<install>
+		<sql>
+			<file driver="mysql">sql/install.mysql.utf8.sql</file>
+		</sql>
+	</install>
+
+	<!-- SQL query files to execute on uninstallation -->
+	<uninstall>
+		<sql>
+			<file driver="mysql">sql/uninstall.mysql.utf8.sql</file>
+		</sql>
+	</uninstall>
+
+	<!-- Administrator back-end section -->
+	<administration>
+		<!-- Administration menu -->
+		<menu view="cpanel">COM_FOF3BASIC</menu>
+
+		<!-- Back-end files -->
+		<files folder="backend">
+			<folder>sql</folder>
+
+			<filename>access.xml</filename>
+			<filename>com_fof3basic.xml</filename>
+			<filename>config.xml</filename>
+			<filename>fof.xml</filename>
+			<filename>index.html</filename>
+			<filename>fof3basic.php</filename>
+		</files>
+
+	</administration>
+</extension>

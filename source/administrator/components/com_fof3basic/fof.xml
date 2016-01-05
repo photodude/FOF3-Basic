@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fof>
+	<common>
+		<container>
+			<!-- Set up the The Factory class which will be used by FOF to determine how much "magic" you want FOF to apply to your component.-->
+			<option name="factoryClass"><![CDATA[FOF30\Factory\MagicFactory]]></option>
+
+			<!-- Use componentNamespace option to configure more unique namespaces, recommened to use something like CompanyName\ComponentName -->
+			<option name="componentNamespace"><![CDATA[AcmeCorp\FOF33Basic]]></option>
+
+			<!-- Auto generate/save the necessary .xml view files and .ini language files for the backend views by reading your database structure (Note: this is only used in step 1)-->
+			<option name="scaffolding">1</option>
+			<option name="saveScaffolding">1</option>
+		</container>
+
+		<!-- Set the default view in the backend to "Examples" -->
+		<dispatcher>
+			<option name="defaultView">Examples</option>
+		</dispatcher>
+	</common>
+</fof>
