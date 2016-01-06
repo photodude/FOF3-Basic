@@ -27,7 +27,7 @@ We also need an SQL install file `install.mysql.utf8.sql` in a `sql` sub-directo
 There is not a lot that goes into the component at this stage, as we are going to use the FOF3 magic and Quick prototyping via the Scaffolding features to build the models, views, controllers, and language files for us. Once we have the prototyping via the Scaffolding feature we will copy the newly created files and turn off the Scaffolding development tool.
 
 ### For details see the following FOF3 documentation links
-- [Getting started with a FOF component](https://github.com/akeeba/fof/wiki/Getting-started-with-a-FOF-component)
+- [Getting started with an FOF component](https://github.com/akeeba/fof/wiki/Getting-started-with-a-FOF-component)
 - [The fof XML configuration file](https://github.com/akeeba/fof/wiki/The-XML-configuration-file)
 - [Table Structure Magic Fields](https://github.com/akeeba/fof/wiki/The-DataModel#magic-fields)
 - [Quick prototyping with the FOF3 Scaffolding feature](https://github.com/akeeba/fof/wiki/Scaffolding)
