@@ -3,28 +3,12 @@ A hello world type example for Akeeba FOF3  as a walkthrough for building a Joom
 
 **Note:** This step in the tutorial assumes you have FOF3 installed. If not, you can get an FOF3 install package from http://Akeebabackup.com
 
-## Step 1 - Creating the frame of your Joomla! application
-The first steps in building a Joomla! application using FOF3 is to create the backend with the necessary files and database tables.
+**Note2:** This step in the tutorial also assumes you have set up your component on a development site (local recommended). That means your Joomla development site needs your component installed with the database tables. You could also set up your tables, copy the files to the site, and add a record to the #__extensions table so you could browse directly to the component via [yoursite url or local url]/administrator/index.php?option=com_[your component's name i.e. fof3basic] (but an install is easier since you have a menu item to work with)
 
-### Getting started
-- First, you need to decide a name for your Joomla! application (for this example I chose FOF3Basic).
-- Second, you need to build up all of the tables you will need for your application.
-	In this example we have 2 tables. There is a Categories table and an Examples table with a few Magic fields. We also have a simple relationship between the Examples table and the Categories table.
-- Third, we need to decide on a default view which we will specify in the fof.xml file (for this example I chose the Examples view).
-With all of these details we can put the minimum files together and get a frame for development.
+## Step 2 - Browse your views and remove the scaffolding
+In step 1 we set up everything to use FOF3's Quick prototyping Scaffolding features to build the views, and language files for us. All that we need to do with the files and database in place is browse to our component and look at each of the list views and item views. That's it, we have the prototype for our back end administrative interface via the Scaffolding feature. All we need to do now is copy the newly created files to our source control and turn off the Scaffolding development tool.
 
-### Required files
-Since we are working with a bear bones component we only need a few files for the backend of the site.
-from the `<root>/administrator/components/com_[your component name i.e. fof3basic]` directory we will create the following
--  access.xml
--  com_[your component name i.e. fof3basic].xml
--  config.xml
--  fof.xml
--  [your component name i.e. fof3basic].php
-  
-We also need an SQL install file `install.mysql.utf8.sql` in a `sql` sub-directory folder
-
-There is not a lot that goes into the component at this stage, as we are going to use the FOF3 magic and Quick prototyping via the Scaffolding features to build the models, views, controllers, and language files for us. Once we have the prototyping via the Scaffolding feature we will copy the newly created files and turn off the Scaffolding development tool.
+**Warning:** Remember if you ever turn on the Scaffolding development tool again, it will replace all of your view files and language .ini files and any customizations will be lost. The Scaffolding development tool should only be used for one time inital quick prototyping.
 
 ### For details see the following FOF3 documentation links
 - [Getting started with an FOF component](https://github.com/akeeba/fof/wiki/Getting-started-with-a-FOF-component)
