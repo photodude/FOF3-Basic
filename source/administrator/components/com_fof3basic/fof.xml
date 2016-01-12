@@ -9,8 +9,8 @@
 			<option name="componentNamespace"><![CDATA[AcmeCorp\FOF3Basic]]></option>
 
 			<!-- Auto generate/save the necessary .xml view files and .ini language files for the backend views by reading your database structure (Note: this is only used in step 1)-->
-			<option name="scaffolding">1</option>
-			<option name="saveScaffolding">1</option>
+			<option name="scaffolding">0</option>
+			<option name="saveScaffolding">0</option>
 		</container>
 
 		<!-- Set the default view in the backend to "Examples" -->
