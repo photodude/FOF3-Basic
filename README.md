@@ -5,3 +5,4 @@ A hello world type example for Akeeba FOF3 written as a developer walkthrough fo
 
 ## Steps
 - [Step 1 - Basic files and creating the frame of your Joomla! application](https://github.com/photodude/FOF3-Basic/tree/step-1-basic-files)
+- [Step 2 - Browse your views and remove the scaffolding](https://github.com/photodude/FOF3-Basic/tree/step-2-remove-scaffolding)
