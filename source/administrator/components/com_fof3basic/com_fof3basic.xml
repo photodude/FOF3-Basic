@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.4" type="component" method="upgrade">
 	<name>FOF3 Basic</name>
-	<creationDate>01/04/2016</creationDate>
+	<creationDate>01/11/2016</creationDate>
 	<author>Walt Sorensen</author>
 	<authorEmail>info@waltsorensen.com</authorEmail>
 	<authorUrl>http://waltsorensen.com</authorUrl>
@@ -32,6 +32,7 @@
 		<!-- Back-end files -->
 		<files folder="backend">
 			<folder>sql</folder>
+			<folder>View</folder>
 
 			<filename>access.xml</filename>
 			<filename>com_fof3basic.xml</filename>
@@ -41,5 +42,9 @@
 			<filename>fof3basic.php</filename>
 		</files>
 
+		<!-- Back-end language files -->
+		<languages folder="language">
+			<language tag="en-GB">en-GB/en-GB.com_fof3basic.ini</language>
+		</languages>
 	</administration>
 </extension>
