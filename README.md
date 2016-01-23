@@ -14,3 +14,4 @@ A hello world type example for Akeeba FOF3 written as a developer walkthrough fo
 - [The XML Database Schema Installer](https://github.com/akeeba/fof/wiki/The-XML-Database-Schema-Installer)
 - [Installation Script Class](https://github.com/akeeba/fof/wiki/The-InstallScript-class)
 - Package Building from source code with Phing
+  - and including FOF3 with your application install package
