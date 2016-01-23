@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form validate="true" type="read">
+  <fieldset name="scaffolding" label="COM_FOF3BASIC_EXAMPLES_GROUP_BASIC">
+    <field name="fof3basic_category_id" type="Model" model="categories" key_field="fof3basic_category_id" value_field="title" label="COM_FOF3BASIC_EXAMPLES_FOF3BASIC_CATEGORY_ID_LBL"/>
+    <field name="title" type="Text" label="COM_FOF3BASIC_EXAMPLES_TITLE_LBL"/>
+    <field name="slug" type="Text" label="COM_FOF3BASIC_EXAMPLES_SLUG_LBL"/>
+    <field name="summary" type="Text" label="COM_FOF3BASIC_EXAMPLES_SUMMARY_LBL"/>
+    <field name="link" type="Url" label="COM_FOF3BASIC_EXAMPLES_LINK_LBL"/>
+    <field name="tags" type="Text" label="COM_FOF3BASIC_EXAMPLES_TAGS_LBL"/>
+    <field name="enabled" type="Published" label="COM_FOF3BASIC_EXAMPLES_ENABLED_LBL"/>
+  </fieldset>
+</form>
