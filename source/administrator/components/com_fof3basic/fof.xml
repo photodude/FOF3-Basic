@@ -13,9 +13,18 @@
 			<option name="saveScaffolding">0</option>
 		</container>
 
-		<!-- Set the default view in the backend to "Examples" -->
+		<!-- Set the default view for the component to "Examples" -->
 		<dispatcher>
 			<option name="defaultView">Examples</option>
 		</dispatcher>
 	</common>
+
+	<!-- The frontend specific set up -->
+	<frontend>
+		<!-- Auto generate/save the necessary .xml view files and .ini language files for the frontend views by reading your database structure (Note: this is only used in step 3) -->
+		<container>
+			<option name="scaffolding">1</option>
+			<option name="saveScaffolding">1</option>
+		</container>
+	</frontend>
 </fof>
