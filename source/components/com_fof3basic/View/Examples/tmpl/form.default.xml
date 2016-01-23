@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form type="browse" show_header="1" show_filters="1" show_pagination="1" norows_placeholder="COM_FOF3BASIC_COMMON_NORECORDS">
+  <headerset>
+    <header name="ordering" type="Ordering" label="COM_FOF3BASIC_EXAMPLES_ORDERING_LBL" sortable="true" tdwidth="1%"/>
+    <header name="fof3basic_example_id" type="RowSelect" label="COM_FOF3BASIC_EXAMPLES_FOF3BASIC_EXAMPLE_ID_LBL" sortable="true" tdwidth="20"/>
+    <header name="fof3basic_category_id" type="Model" model="categories" key_field="fof3basic_category_id" value_field="title" label="COM_FOF3BASIC_EXAMPLES_FOF3BASIC_CATEGORY_ID_LBL" sortable="true"/>
+    <header name="title" type="Searchable" label="COM_FOF3BASIC_EXAMPLES_TITLE_LBL"/>
+    <header name="summary" type="Searchable" label="COM_FOF3BASIC_EXAMPLES_SUMMARY_LBL" sortable="true"/>
+    <header name="link" type="Searchable" label="COM_FOF3BASIC_EXAMPLES_LINK_LBL" sortable="true"/>
+    <header name="tags" type="Searchable" label="COM_FOF3BASIC_EXAMPLES_TAGS_LBL" sortable="true"/>
+    <header name="enabled" type="Published" label="COM_FOF3BASIC_EXAMPLES_ENABLED_LBL" sortable="true"/>
+  </headerset>
+  <fieldset name="items">
+    <field name="ordering" type="Ordering" label="COM_FOF3BASIC_EXAMPLES_ORDERING_LBL" class="input-mini input-sm"/>
+    <field name="fof3basic_example_id" type="SelectRow" label="COM_FOF3BASIC_EXAMPLES_FOF3BASIC_EXAMPLE_ID_LBL"/>
+    <field name="fof3basic_category_id" type="Model" model="categories" key_field="fof3basic_category_id" value_field="title" label="COM_FOF3BASIC_EXAMPLES_FOF3BASIC_CATEGORY_ID_LBL"/>
+    <field name="title" type="Sortable" label="COM_FOF3BASIC_EXAMPLES_TITLE_LBL" url="index.php?option=com_fof3basic&amp;view=Example&amp;id=[ITEM:ID]&amp;[TOKEN]=1"/>
+    <field name="summary" type="Text" label="COM_FOF3BASIC_EXAMPLES_SUMMARY_LBL"/>
+    <field name="link" type="Url" label="COM_FOF3BASIC_EXAMPLES_LINK_LBL"/>
+    <field name="tags" type="Text" label="COM_FOF3BASIC_EXAMPLES_TAGS_LBL"/>
+    <field name="enabled" type="Actions" label="COM_FOF3BASIC_EXAMPLES_ENABLED_LBL"/>
+  </fieldset>
+</form>
