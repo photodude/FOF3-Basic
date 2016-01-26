@@ -7,6 +7,7 @@
     <field name="summary" type="Text" label="COM_FOF3BASIC_EXAMPLES_SUMMARY_LBL"/>
     <field name="link" type="Url" label="COM_FOF3BASIC_EXAMPLES_LINK_LBL"/>
     <field name="tags" type="Text" label="COM_FOF3BASIC_EXAMPLES_TAGS_LBL"/>
+    <field name="access" type="AccessLevel" label="COM_FOF3BASIC_EXAMPLES_ACCESS_LBL"/>
     <field name="enabled" type="Published" label="COM_FOF3BASIC_EXAMPLES_ENABLED_LBL"/>
   </fieldset>
 </form>
