@@ -10,7 +10,7 @@ The first steps in building a Joomla! component using FOF3 is to create the back
 - First, you need to decide a name for your Joomla! component (for this example I chose FOF3Basic).
 - Second, you need to build up all of the tables you will need for your component.
 	In this example we have 2 tables. There is a `Categories` table and an `Examples` table with a few Magic fields. We also have a simple relationship between the `Examples` table and the `Categories` table.
-  - FOF3 Magic fields we will be using. You can use different names for these fields with the `aliasFields` property of your model or fof.xml configuration.
+  - Some FOF3 Magic Fields we will be using.
     - **access**  The Joomla! view access level
     - **created_on**  Timestamp of record creation
     - **created_by**  User ID who created the record
