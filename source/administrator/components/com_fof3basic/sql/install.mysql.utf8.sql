@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS `#__fof3basic_examples` (
 	`summary`                      TEXT             NOT NULL,
 	`link`                         VARCHAR(255)     NOT NULL,
 	`tags`                         TEXT             NOT NULL,
-	`viewlevel`                    INT(11)          NOT NULL,
+	`access`                       INT(11)          NOT NULL,
 
 	`enabled`                      TINYINT(1)       NOT NULL DEFAULT '1',
 	`ordering`                     BIGINT(20) UNSIGNED NOT NULL,
@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS `#__fof3basic_categories` (
 	`slug`                         VARCHAR(255) NOT NULL DEFAULT '',
 	`description`                  mediumtext       NOT NULL,
 	`tags`                         TEXT             NOT NULL,
-	`viewlevel`                    INT(11)          NOT NULL,
+	`access`                       INT(11)          NOT NULL,
 
 	`enabled`                      TINYINT(1)       NOT NULL DEFAULT '1',
 	`ordering`                     BIGINT(20) UNSIGNED NOT NULL,
