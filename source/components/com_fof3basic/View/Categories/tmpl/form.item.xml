@@ -5,6 +5,7 @@
     <field name="slug" type="Text" label="COM_FOF3BASIC_CATEGORIES_SLUG_LBL"/>
     <field name="description" type="Editor" label="COM_FOF3BASIC_CATEGORIES_DESCRIPTION_LBL"/>
     <field name="tags" type="Text" label="COM_FOF3BASIC_CATEGORIES_TAGS_LBL"/>
+    <field name="access" type="AccessLevel" label="COM_FOF3BASIC_CATEGORIES_ACCESS_LBL"/>
     <field name="enabled" type="Published" label="COM_FOF3BASIC_CATEGORIES_ENABLED_LBL"/>
   </fieldset>
 </form>
