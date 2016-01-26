@@ -12,12 +12,12 @@ The first steps in building a Joomla! component using FOF3 is to create the back
 	In this example we have 2 tables. There is a `Categories` table and an `Examples` table with a few Magic fields. We also have a simple relationship between the `Examples` table and the `Categories` table.
   - FOF3 Magic fields we will be using. You can use different names for these fields with the `aliasFields` property of your model or fof.xml configuration.
     - **access**  The Joomla! view access level
-    - **created_on**  Timestamp of record creation, auto-filled by save()
-    - **created_by**  User ID who created the record, auto-filled by save()
-    - **modified_on**  Timestamp of record modification, auto-filled by save(), touch()
-    - **modified_by**  User ID who modified the record, auto-filled by save(), touch()
-    - **locked_on**  Timestamp of record locking, auto-filled by lock(), unlock()
-    - **locked_by**  User ID who locked the record, auto-filled by lock(), unlock()
+    - **created_on**  Timestamp of record creation
+    - **created_by**  User ID who created the record
+    - **modified_on**  Timestamp of record modification
+    - **modified_by**  User ID who modified the record
+    - **locked_on**  Timestamp of record locking
+    - **locked_by**  User ID who locked the record
     - **ordering**  Record ordering
     - **enabled**  Publish status: -2 trashed, -1 archived, 0 unpublished, 1 published
 - Third, we need to decide on a default view which we will specify in the fof.xml file (for this example I chose the Examples view).
