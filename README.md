@@ -38,6 +38,7 @@ There is not a lot that goes into the component at this stage, as we are going t
 
 ### For details see the following FOF3 documentation links
 - [Getting started with an FOF component](https://github.com/akeeba/fof/wiki/Getting-started-with-a-FOF-component)
+- [The access XML file](https://github.com/akeeba/fof/wiki/The-access.xml-file)
 - [The fof XML configuration file](https://github.com/akeeba/fof/wiki/The-XML-configuration-file)
 - [Table Structure Magic Fields](https://github.com/akeeba/fof/wiki/The-DataModel#magic-fields)
 - [Quick prototyping with the FOF3 Scaffolding feature](https://github.com/akeeba/fof/wiki/Scaffolding)
