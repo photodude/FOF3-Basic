@@ -29,10 +29,10 @@ from the `<root>/administrator/components/com_[your component name i.e. fof3basi
 
 File | Meaning
 --- | ---
-access.xml | Joomla! XML file used to set up Access Control Level privileges
-com_[your component name i.e. fof3basic].xml | The Joomla! XML (manifest) file which tells Joomla! how to install your component.
-config.xml | Joomla! XML file for setting configuration parameters
-fof.xml | FOF XML file that allows you to configure many parts of your component without writing any PHP code
+access.xml | XML file used to set up Access Control Level privileges
+com_[your component name i.e. fof3basic].xml | XML (manifest) file which tells Joomla! how to install your component.
+config.xml | XML file for setting configuration parameters
+fof.xml | XML file that allows you to configure many parts of your component without writing any PHP code
 [your component name i.e. fof3basic].php | Your entry point file
 
 We also need an SQL install file `install.mysql.utf8.sql` in a `sql` sub-directory folder
@@ -45,3 +45,6 @@ There is not a lot that goes into the component at this stage, as we are going t
 - [The fof XML configuration file](https://github.com/akeeba/fof/wiki/The-XML-configuration-file)
 - [Table Structure Magic Fields](https://github.com/akeeba/fof/wiki/The-DataModel#magic-fields)
 - [Quick prototyping with the FOF3 Scaffolding feature](https://github.com/akeeba/fof/wiki/Scaffolding)
+
+### For additional details see the following Joomla documentation links
+- [XML Manifest files](https://docs.joomla.org/Manifest_files)
