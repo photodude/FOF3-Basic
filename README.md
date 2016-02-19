@@ -26,12 +26,15 @@ With all of these details we can put the minimum files together and get a frame 
 ### Required files
 Since we are working with a bear bones component we only need a few files for the backend of the site.
 from the `<root>/administrator/components/com_[your component name i.e. fof3basic]` directory we will create the following
--  access.xml
--  com_[your component name i.e. fof3basic].xml
--  config.xml
--  fof.xml
--  [your component name i.e. fof3basic].php
-  
+
+File | Meaning
+--- | ---
+access.xml | Joomla! XML file used to set up Access Control Level privileges
+com_[your component name i.e. fof3basic].xml | The Joomla! XML (manifest) file which tells Joomla! how to install your component.
+config.xml | Joomla! XML file for setting configuration parameters
+fof.xml | FOF XML file that allows you to configure many parts of your component without writing any PHP code
+[your component name i.e. fof3basic].php | Your entry point file
+
 We also need an SQL install file `install.mysql.utf8.sql` in a `sql` sub-directory folder
 
 There is not a lot that goes into the component at this stage, as we are going to use the FOF3 magic and Quick prototyping via the Scaffolding features to build the models, views, controllers, and language files for us. Once we have the prototyping via the Scaffolding feature we will copy the newly created files and turn off the Scaffolding development tool.
