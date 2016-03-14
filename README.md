@@ -15,3 +15,6 @@ A hello world type example for Akeeba FOF3 written as a developer walkthrough fo
 - [Installation Script Class](https://github.com/akeeba/fof/wiki/The-InstallScript-class)
 - Package Building from source code with Phing
   - and including FOF3 with your application install package
+
+### FOF3 Video Guides
+[Look, mum, no code! at J and Beyond 2015](https://youtu.be/qwPzNNAM5RA) Presented by Nicholas Dionysopoulos
