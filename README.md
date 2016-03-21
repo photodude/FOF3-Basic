@@ -16,3 +16,6 @@ Congratulations, we have now created a vary bare bones Joomla component with FOF
 - [The Controller or the DataController](https://github.com/akeeba/fof/wiki/The-Controller)
 - [Model, DataModel or TreeModel](https://github.com/akeeba/fof/wiki/The-Model)
 - [View or DataViewInterface](https://github.com/akeeba/fof/wiki/The-View)
+
+### FOF3 Video Guides
+- [Look, mum, no code! at J and Beyond 2015](https://youtu.be/qwPzNNAM5RA) Presented by Nicholas Dionysopoulos
