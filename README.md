@@ -15,3 +15,6 @@ In step 1 we set up everything to use FOF3's Quick prototyping Scaffolding featu
 - [The fof XML configuration file](https://github.com/akeeba/fof/wiki/The-XML-configuration-file)
 - [Table Structure Magic Fields](https://github.com/akeeba/fof/wiki/The-DataModel#magic-fields)
 - [Quick prototyping with the FOF3 Scaffolding feature](https://github.com/akeeba/fof/wiki/Scaffolding)
+
+### FOF3 Video Guides
+- [Look, mum, no code! at J and Beyond 2015](https://youtu.be/qwPzNNAM5RA) Presented by Nicholas Dionysopoulos
