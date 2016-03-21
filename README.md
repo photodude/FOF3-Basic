@@ -48,3 +48,6 @@ There is not a lot that goes into the component at this stage, as we are going t
 
 ### For additional details see the following Joomla documentation links
 - [XML Manifest files](https://docs.joomla.org/Manifest_files)
+
+### FOF3 Video Guides
+- [Look, mum, no code! at J and Beyond 2015](https://youtu.be/qwPzNNAM5RA) Presented by Nicholas Dionysopoulos
