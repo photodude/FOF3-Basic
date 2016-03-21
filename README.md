@@ -30,7 +30,7 @@ from the `<root>/administrator/components/com_[your component name i.e. fof3basi
 File | Meaning
 --- | ---
 access.xml | XML file used to set up Access Control Level privileges
-manifest.xml or <extension_name>.xml | XML (manifest) file which tells Joomla! how to install your component.
+manifest.xml or [extension_name].xml | XML (manifest) file which tells Joomla! how to install your component.
 config.xml | XML file for setting configuration parameters
 fof.xml | XML file that allows you to configure many parts of your component without writing any PHP code
 [your component name i.e. fof3basic].php | Your entry point file
