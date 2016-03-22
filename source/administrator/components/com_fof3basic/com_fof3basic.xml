@@ -26,6 +26,7 @@
 		</sql>
 	</uninstall>
 
+	<!-- Front-end section -->
 	<files folder="frontend">
 		<filename>fof3basic.php</filename>
 	</files>
