@@ -19,3 +19,4 @@ Congratulations, we have now created a vary bare bones Joomla component with FOF
 
 ### FOF3 Video Guides
 - [Look, mum, no code! at J and Beyond 2015](https://youtu.be/qwPzNNAM5RA) Presented by Nicholas Dionysopoulos
+  - [Github repository for code related to video tutorial](https://github.com/akeeba/jab15)
