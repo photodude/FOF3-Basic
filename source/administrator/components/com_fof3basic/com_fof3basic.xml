@@ -8,7 +8,7 @@
 	<copyright>Copyright (c)2016 Walt Sorensen</copyright>
 	<license>GNU GPL v3 or later</license>
 	<version>0.0.1</version>
-	<description>FOF3-Basic is a hello world type example for Akeeba FOF3 as a walkthrough for building a Joomla! app from the ground up.</description>
+	<description>FOF3-Basic is a hello world type example for Akeeba FOF3 as a walkthrough for building a Joomla! component from the ground up.</description>
 
 	<!-- SQL query files to execute on installation -->
 	<install>
