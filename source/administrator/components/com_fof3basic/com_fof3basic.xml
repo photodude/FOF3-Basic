@@ -26,6 +26,10 @@
 		</sql>
 	</uninstall>
 
+	<files folder="frontend">
+		<filename>fof3basic.php</filename>
+	</files>
+
 	<!-- Administrator back-end section -->
 	<administration>
 		<!-- Administration menu -->
