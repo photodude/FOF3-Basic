@@ -24,7 +24,7 @@ The first steps in building a Joomla! component using FOF3 is to create the back
 With all of these details we can put the minimum files together and get a frame for development.
 
 ### Required files
-Since we are working with a bear bones component we only need a few files for the backend of the site.
+Since we are working with a bare-bones component we only need a few files for the backend of the site.
 from the `<root>/administrator/components/com_[your component name i.e. fof3basic]` directory we will create the following
 
 File | Meaning
