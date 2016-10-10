@@ -20,3 +20,7 @@ In step 1 we set up everything to use FOF3's Quick prototyping Scaffolding featu
 - [Look, mum, no code! at J and Beyond 2015](https://youtu.be/qwPzNNAM5RA) Presented by Nicholas Dionysopoulos
   - [Github repository for code related to video tutorial](https://github.com/akeeba/jab15)
 
+### Quick Links to Next/Previous Steps
+- [Previous Step](https://github.com/photodude/FOF3-Basic/tree/step-1-basic-files)
+- [Next Step](https://github.com/photodude/FOF3-Basic/tree/step-3-adding-the-site-side)
+
