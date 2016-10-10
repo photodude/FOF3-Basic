@@ -21,3 +21,7 @@ In step 3 we only have two minor changes to put everything in place for using FO
 ### FOF3 Video Guides
 - [Look, mum, no code! at J and Beyond 2015](https://youtu.be/qwPzNNAM5RA) Presented by Nicholas Dionysopoulos
   - [Github repository for code related to video tutorial](https://github.com/akeeba/jab15)
+
+### Quick Links to Next/Previous Steps
+- [Previous Step](https://github.com/photodude/FOF3-Basic/tree/step-2-remove-scaffolding)
+- [Next Step](https://github.com/photodude/FOF3-Basic/tree/step-4-remove-scaffolding)
