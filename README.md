@@ -52,3 +52,7 @@ There is not a lot that goes into the component at this stage, as we are going t
 ### FOF3 Video Guides
 - [Look, mum, no code! at J and Beyond 2015](https://youtu.be/qwPzNNAM5RA) Presented by Nicholas Dionysopoulos
   - [Github repository for code related to video tutorial](https://github.com/akeeba/jab15)
+
+### Quick Links to Next/Previous Steps
+- [Back to Into](https://github.com/photodude/FOF3-Basic)
+- [Next Step](https://github.com/photodude/FOF3-Basic/tree/step-2-remove-scaffolding)
